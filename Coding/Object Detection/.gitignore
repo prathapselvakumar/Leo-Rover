@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data files
+*.pt
+*.onnx
+*.pth
+*.pkl
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Dataset - Exclude all data files
+data/
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+*.mov
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# YOLO training outputs
+yolo_custom_train/
+runs/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development
+.env
+.env.local
+
+# Project specific
+custom_dataset.yaml
+
+# Large files that should not be tracked
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.pth
+*.pt
+*.onnx
+*.weights
+
+# Pre-trained models
+models/
+
+# Virtual environment
+venv/
+ENV/
+
+# IDE specific files
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pyproj
+*.pyproj.user
+*.db
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.VC.db
+*.VC.VC.db-shm
+*.VC.VC.db-wal
+*.vspscc
+*.vssscc
+*.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System Files
+.DS_Store
+Thumbs.db
